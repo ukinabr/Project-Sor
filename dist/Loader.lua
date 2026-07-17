@@ -3,7 +3,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local teleportScript = [[
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/dist/Loader.lua"))()
 ]]
 
 local queue = queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport)
@@ -16,9 +16,8 @@ if queue then
     end)
 end
 
-
 local scripts = {
-    [540382210] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/XOR%2BITP-Control",
+    [4823392707] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/XOR%2BITP-Control",
     [108015301318511] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/FNAF1",
     [17673168111] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/SisterLocation",
     [12402976334] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/GoldenF",
