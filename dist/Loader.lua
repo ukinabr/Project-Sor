@@ -1,10 +1,9 @@
-
 local TeleportService = game:GetService("TeleportService")
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local teleportScript = [[
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/dist/Loader.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 ]]
 
 local queue = queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport)
@@ -29,6 +28,7 @@ local scripts = {
     [74221148357881] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/Moon",
     [70930677544808] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/Endo",
     [71731529216768] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/Minigames/Orvillie",
+    [1343871267] = "https://raw.githubusercontent.com/ukinabr/Aureal-B-X/refs/heads/main/Games/FMR/main-game.lua",
 }
 
 local url = scripts[game.PlaceId]
